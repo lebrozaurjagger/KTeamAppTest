@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64C06AD82C0B378100738881 /* CresusAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C06AD72C0B378100738881 /* CresusAppApp.swift */; };
+		64C06ADA2C0B378100738881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C06AD92C0B378100738881 /* ContentView.swift */; };
+		64C06ADC2C0B378300738881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C06ADB2C0B378300738881 /* Assets.xcassets */; };
+		64C06ADF2C0B378300738881 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C06ADE2C0B378300738881 /* Preview Assets.xcassets */; };
+		64C06AE82C0B3A6900738881 /* Modak-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64C06AE72C0B3A6900738881 /* Modak-Regular.ttf */; };
+		64C06AEE2C0B3ADF00738881 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C06AED2C0B3ADF00738881 /* ColorScheme.swift */; };
+		64C06AF42C0B8F1A00738881 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C06AF32C0B8F1A00738881 /* LeaderboardView.swift */; };
+		64C06AF62C0B917600738881 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C06AF52C0B917600738881 /* ShopView.swift */; };
+		64C06AF82C0B9F6600738881 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C06AF72C0B9F6600738881 /* PrivacyPolicyView.swift */; };
+		64C06AFA2C0BA36800738881 /* ChooseLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C06AF92C0BA36800738881 /* ChooseLevelView.swift */; };
+		64C06AFE2C0C8C3500738881 /* RecMonoCasual Bold 1.085.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64C06AFD2C0C8C3500738881 /* RecMonoCasual Bold 1.085.ttf */; };
+		64C06B022C0C90B400738881 /* DailyBonusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C06B012C0C90B400738881 /* DailyBonusView.swift */; };
+		64C06B042C0D2B5700738881 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C06B032C0D2B5700738881 /* LevelView.swift */; };
+		64C06B0B2C0E696300738881 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C06B0A2C0E696300738881 /* BackButton.swift */; };
+		64C06B0D2C0E769500738881 /* DiamondsShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C06B0C2C0E769500738881 /* DiamondsShopView.swift */; };
+		64C06B112C0E9C7400738881 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C06B102C0E9C7400738881 /* GameOver.swift */; };
+		64C06B332C123D7600738881 /* Sprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C06B322C123D7600738881 /* Sprites.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64C06AD42C0B378100738881 /* CresusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CresusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C06AD72C0B378100738881 /* CresusAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CresusAppApp.swift; sourceTree = "<group>"; };
+		64C06AD92C0B378100738881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64C06ADB2C0B378300738881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64C06ADE2C0B378300738881 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64C06AE62C0B39D800738881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		64C06AE72C0B3A6900738881 /* Modak-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Modak-Regular.ttf"; sourceTree = "<group>"; };
+		64C06AED2C0B3ADF00738881 /* ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		64C06AF32C0B8F1A00738881 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		64C06AF52C0B917600738881 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		64C06AF72C0B9F6600738881 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		64C06AF92C0BA36800738881 /* ChooseLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLevelView.swift; sourceTree = "<group>"; };
+		64C06AFD2C0C8C3500738881 /* RecMonoCasual Bold 1.085.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RecMonoCasual Bold 1.085.ttf"; sourceTree = "<group>"; };
+		64C06B012C0C90B400738881 /* DailyBonusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyBonusView.swift; sourceTree = "<group>"; };
+		64C06B032C0D2B5700738881 /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		64C06B0A2C0E696300738881 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		64C06B0C2C0E769500738881 /* DiamondsShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondsShopView.swift; sourceTree = "<group>"; };
+		64C06B102C0E9C7400738881 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		64C06B322C123D7600738881 /* Sprites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprites.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64C06AD12C0B378100738881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64C06ACB2C0B378100738881 = {
+			isa = PBXGroup;
+			children = (
+				64C06AD62C0B378100738881 /* CresusApp */,
+				64C06AD52C0B378100738881 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64C06AD52C0B378100738881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64C06AD42C0B378100738881 /* CresusApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64C06AD62C0B378100738881 /* CresusApp */ = {
+			isa = PBXGroup;
+			children = (
+				64C06AE62C0B39D800738881 /* Info.plist */,
+				64C06AD72C0B378100738881 /* CresusAppApp.swift */,
+				64C06B072C0D32E000738881 /* ViewModels */,
+				64C06AE92C0B3AB800738881 /* Views */,
+				64C06AEA2C0B3AC100738881 /* Models */,
+				64C06AEC2C0B3AD300738881 /* Helpers */,
+				64C06ADB2C0B378300738881 /* Assets.xcassets */,
+				64C06AE72C0B3A6900738881 /* Modak-Regular.ttf */,
+				64C06AFD2C0C8C3500738881 /* RecMonoCasual Bold 1.085.ttf */,
+				64C06ADD2C0B378300738881 /* Preview Content */,
+			);
+			path = CresusApp;
+			sourceTree = "<group>";
+		};
+		64C06ADD2C0B378300738881 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64C06ADE2C0B378300738881 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64C06AE92C0B3AB800738881 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64C06AD92C0B378100738881 /* ContentView.swift */,
+				64C06AF32C0B8F1A00738881 /* LeaderboardView.swift */,
+				64C06AF52C0B917600738881 /* ShopView.swift */,
+				64C06B0C2C0E769500738881 /* DiamondsShopView.swift */,
+				64C06AF72C0B9F6600738881 /* PrivacyPolicyView.swift */,
+				64C06AF92C0BA36800738881 /* ChooseLevelView.swift */,
+				64C06B012C0C90B400738881 /* DailyBonusView.swift */,
+				64C06B032C0D2B5700738881 /* LevelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64C06AEA2C0B3AC100738881 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64C06AEC2C0B3AD300738881 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				64C06AED2C0B3ADF00738881 /* ColorScheme.swift */,
+				64C06B0A2C0E696300738881 /* BackButton.swift */,
+				64C06B102C0E9C7400738881 /* GameOver.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		64C06B072C0D32E000738881 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				64C06B322C123D7600738881 /* Sprites.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64C06AD32C0B378100738881 /* CresusApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C06AE22C0B378300738881 /* Build configuration list for PBXNativeTarget "CresusApp" */;
+			buildPhases = (
+				64C06AD02C0B378100738881 /* Sources */,
+				64C06AD12C0B378100738881 /* Frameworks */,
+				64C06AD22C0B378100738881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CresusApp;
+			productName = CresusApp;
+			productReference = 64C06AD42C0B378100738881 /* CresusApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64C06ACC2C0B378100738881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					64C06AD32C0B378100738881 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 64C06ACF2C0B378100738881 /* Build configuration list for PBXProject "CresusApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64C06ACB2C0B378100738881;
+			productRefGroup = 64C06AD52C0B378100738881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64C06AD32C0B378100738881 /* CresusApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64C06AD22C0B378100738881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C06ADF2C0B378300738881 /* Preview Assets.xcassets in Resources */,
+				64C06AFE2C0C8C3500738881 /* RecMonoCasual Bold 1.085.ttf in Resources */,
+				64C06AE82C0B3A6900738881 /* Modak-Regular.ttf in Resources */,
+				64C06ADC2C0B378300738881 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64C06AD02C0B378100738881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C06AF62C0B917600738881 /* ShopView.swift in Sources */,
+				64C06B332C123D7600738881 /* Sprites.swift in Sources */,
+				64C06B0D2C0E769500738881 /* DiamondsShopView.swift in Sources */,
+				64C06AF82C0B9F6600738881 /* PrivacyPolicyView.swift in Sources */,
+				64C06AF42C0B8F1A00738881 /* LeaderboardView.swift in Sources */,
+				64C06ADA2C0B378100738881 /* ContentView.swift in Sources */,
+				64C06B042C0D2B5700738881 /* LevelView.swift in Sources */,
+				64C06AFA2C0BA36800738881 /* ChooseLevelView.swift in Sources */,
+				64C06B112C0E9C7400738881 /* GameOver.swift in Sources */,
+				64C06B0B2C0E696300738881 /* BackButton.swift in Sources */,
+				64C06B022C0C90B400738881 /* DailyBonusView.swift in Sources */,
+				64C06AEE2C0B3ADF00738881 /* ColorScheme.swift in Sources */,
+				64C06AD82C0B378100738881 /* CresusAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64C06AE02C0B378300738881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64C06AE12C0B378300738881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64C06AE32C0B378300738881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CresusApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5R537FQZP7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CresusApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pkotenko.CresusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64C06AE42C0B378300738881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CresusApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5R537FQZP7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CresusApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pkotenko.CresusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64C06ACF2C0B378100738881 /* Build configuration list for PBXProject "CresusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C06AE02C0B378300738881 /* Debug */,
+				64C06AE12C0B378300738881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C06AE22C0B378300738881 /* Build configuration list for PBXNativeTarget "CresusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C06AE32C0B378300738881 /* Debug */,
+				64C06AE42C0B378300738881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64C06ACC2C0B378100738881 /* Project object */;
+}
